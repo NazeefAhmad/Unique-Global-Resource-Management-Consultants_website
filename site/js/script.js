@@ -983,6 +983,40 @@
 				initBootstrapTooltip(tooltipPlacement);
 			})
 		}
+		
+
+// Change image after the initial interval
+let currentIndex = 0; // Start with the first slide (index 0)
+
+function showSlides(index) {
+    const slides = document.querySelectorAll('.section-fullscreen-image');
+    const dots = document.querySelectorAll('.dot');
+    
+    // Hide all slides and remove active dot class
+    slides.forEach(slide => slide.style.display = 'none');
+    dots.forEach(dot => dot.classList.remove('active'));
+
+    // Show the selected slide and mark the corresponding dot as active
+    slides[index].style.display = 'block';
+    dots[index].classList.add('active');
+}
+
+function currentSlide(index) {
+    // Update currentIndex and show the corresponding slide
+    currentIndex = index; // Update currentIndex without adjusting the index
+    showSlides(currentIndex);
+}
+
+// Initialize slideshow
+showSlides(currentIndex); 
+
+// Debugging: Check if clicking the dots triggers the currentSlide function
+document.querySelectorAll('.dot').forEach((dot, index) => {
+    dot.addEventListener('click', () => {
+        currentSlide(index); // Pass the index directly without adjusting
+    });
+});
+
 
 	});
 }());

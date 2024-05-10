@@ -8714,6 +8714,49 @@ html:not(.lt-ie10) .not-animated {
 	}
 }
 
+#slider {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.section-fullscreen-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+/* CSS for dots */
+/* CSS for dots */
+/* CSS for dots */
+.slider-dots {
+    position: absolute;
+    bottom: 20px; /* Adjust this value as needed for vertical positioning */
+    left: 50%; /* Center the dots horizontally */
+    transform: translateX(-50%);
+    z-index: 100; /* Ensure the dots are above other content */
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #ba2121;
+}
+
+
+
+
 /*
 *
 * ToTop
