@@ -9884,12 +9884,13 @@ html.tablet .ui-to-top {
 
 .rd-navbar-fixed .rd-navbar-fixed--hidden {
 	display: none;
+	background-color: #354879;;
 }
 
 .rd-navbar-fixed .rd-navbar-panel {
 	color: black;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
-	background: #fff;
+	background: #354879;
 }
 
 .rd-navbar-fixed .rd-navbar-nav-wrap {
@@ -10543,6 +10544,7 @@ html.rd-navbar-fixed-linked .page {
 .rd-navbar-thin.rd-navbar-static .rd-navbar-block.active {
 	opacity: 0;
 	visibility: hidden;
+	background-color: #354879;
 }
 
 .rd-navbar-thin.rd-navbar-static .rd-navbar-brand {
