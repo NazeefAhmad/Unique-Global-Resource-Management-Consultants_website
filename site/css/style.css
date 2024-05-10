@@ -7720,37 +7720,36 @@ html [class*='section-'].section-bottom-0 {
 	padding: 40px 0;
 }
 
-.section-halfscreen-image {
-	position:inherit;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background-size: 100% 100%;
-	background-position: center center;
-	background-repeat: no-repeat;
-
-
-    /* This targets the image inside the container */
-    width: 100%; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+.section-halfscreen {
+    /* Change to fullscreen */
+    height: 100vh; /* Set height to cover the entire viewport */
 }
 
-.section-halfscreen-image::before {
-	content: '';
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	z-index: 1;
-	pointer-events: none;
-	background: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.4));
+.section-fullscreen-image {
+    /* Adjust background image size */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the background image */
 }
+.section-fullscreen-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center; /* Centers vertically */
+	align-items: center; /* Centers horizontally */
+	height: 100%;
+	display: grid;
+	place-items: center; /* Centers both horizontally and vertically */
+	height: 100%;/* Ensures the container takes up the full height of its parent */
+  }
+  
 
 .section-halfscreen-content {
 	position: relative;
 	z-index: 1;
+	display: flex;
+    justify-content: center; /* Horizontally center text */
+    align-items: center; /* Vertically center text */
+    height: 100%;
+	
 }
 
 @media (max-width: 767.98px) {
