@@ -7721,14 +7721,19 @@ html [class*='section-'].section-bottom-0 {
 }
 
 .section-halfscreen-image {
-	position: absolute;
+	position:inherit;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background-size: cover;
+	background-size: 100% 100%;
 	background-position: center center;
 	background-repeat: no-repeat;
+
+
+    /* This targets the image inside the container */
+    width: 100%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
 }
 
 .section-halfscreen-image::before {
