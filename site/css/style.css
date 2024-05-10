@@ -1928,6 +1928,12 @@ img {
 *
 * Dividers
 */
+/*footer for social media*/
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
 hr {
 	margin-top: 0;
 	margin-bottom: 0;
@@ -5178,6 +5184,7 @@ html:not(.tablet):not(.mobile) .thumbnail-indigo:hover .thumbnail-indigo-caption
 .footer-minimal-inner .rights a:hover {
 	color: #fff;
 	opacity: .5;
+	
 }
 
 @media (min-width: 768px) {
