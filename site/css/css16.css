@@ -1,0 +1,896 @@
+/*
+Theme Name: Aurum - Child Theme
+Theme URI: https://laborator.co/themes/aurum/
+Author: Laborator
+Author URI: http://laborator.co/
+Description: Use this theme if you want to extend features of Aurum theme or prevent overwriting the changes you make when new theme update is available.
+Version: 1.0
+Template: aurum
+Text Domain: aurum
+*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+
+footer.site-footer  .col-sm-3 {
+    width: 50%;
+}
+footer.site-footer .col-sm-3:first-child, footer.site-footer .col-sm-3:nth-child(3) {
+    display: none;
+}
+.vc_row.row.Home_Intro.Our_Clients h3.sidebar-entry-title {
+    display: none;
+}
+.vc_row.row.Home_Intro.Our_Clients .sidebar .sidebar-entry {
+    margin-bottom: 0;
+    border: none !important;
+    padding: 0 !important;
+}
+.vc_row.row.Home_Intro.Our_Clients .item img{
+	width:70% !important;
+}
+.header_links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0 10px;
+    font-family: 'Roboto';
+}
+.home header.site-header {
+    position: absolute;
+    background: rgba(255,255,255,0.8);
+    z-index: 1000;
+    box-shadow: none;
+    width: 100%;
+}
+span.color_text {
+    color: #0BAFA0 !important;
+}
+.foot_details h3 {
+    border-bottom: 1px solid #000;
+    color: #0BAFA0 !important;
+    padding-bottom: 10px;
+    font-family: 'Roboto';
+}
+.foot_details i {
+    color: #0BAFA0;
+    padding-right: 2px;
+}
+.foot_details p, .foot_details a {
+    color: #222 !important;
+    text-transform: none;
+    font-family: 'Roboto';
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+nav.main-menu li a {
+    font-size: 17px !important;
+    letter-spacing: 0.5px;
+    font-family: 'Roboto';
+    font-weight: 400 !important;
+}
+.header-spacer {
+    display: none;
+}
+.top-menu--dark {
+    background-color: #0BAFA0;
+}
+.col-sm-3.header_img_right {
+    text-align: right;
+}
+.col-sm-3.header_img_right img {
+    margin-top: 25px;
+    width: 55%;
+}
+.col-sm-3.header_img_left img {
+    width: 50%;
+    margin-top: 25px;
+}
+ul#menu-main li a {
+    font-size: 15px;
+    color: #555555 !important;
+    text-transform: none;
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+    font-weight: 300 !important;
+    padding: 20px 30px;
+}
+.page-container {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+img.n2_ss_video_play_btn.skip-lazy {
+    display: none !important;
+}
+.vc_row.row.Home_Intro h2, .vc_row.row.Home_Services h3 {
+    font-family: 'GFS Didot', serif;
+    text-transform: none;
+    font-size: 55px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #0BAFA0;
+    margin-bottom: 35px;
+	text-align: center;
+}
+.vc_row.row.Home_Services h3 {
+    font-size: 40px !important;
+    text-align: center;
+    line-height: 45px;
+}
+.vc_row.row.Home_Intro p {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+    color: #808080;
+    line-height: 35px;
+    letter-spacing: 0.5px;
+}
+.vc_row.row.Home_Services .wpb_single_image, .vc_row.row.Home_Services .wpb_wrapper {
+    margin-bottom: 0;
+}
+.vc_row.row.Home_Services .wpb_column.vc_column_container.vc_col-sm-6 .vc_column-inner {
+    padding-left: 0;
+    padding-right: 0;
+}
+.vc_row.row.Home_Intro {
+    padding-bottom: 0px;
+    padding-top: 15px;
+}
+div#Home_Welcome .wpb_text_column, div#Home_Welcome .wpb_wrapper {
+    margin-bottom: 0;
+}
+.Home_Points p {
+    text-align: left !important;
+    font-size: 15px !important;
+    color: #000 !important;
+    line-height: 25px !important;
+    padding-top: 15px;
+}
+.Home_Points i {
+    color: #0BAFA0;
+    font-size: 35px;
+    float: left;
+    padding-right: 5px;
+}
+.vc_row.row.Home_Intro.Our_Clients {
+    padding-top: 25px;
+}
+.vc_row.row.Home_Intro.Our_Clients .vc_slide .vc_carousel-control {
+    opacity: 1 !important;
+    background-color: #fff !important;
+    height: 50px !important;
+}
+.vc_row.row.Mission_Vision .wpb_text_column.wpb_content_element p {
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+.vc_row.row.Mission_Vision .wpb_text_column.wpb_content_element h3 {
+    color: #0BAFA0 !important;
+    text-transform: none;
+    margin-top: 0;
+    font-family: 'GFS Didot', serif;
+    font-size: 33px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+.vc_row.row.Mission_Vision .wpb_text_column.wpb_content_element {
+    margin-bottom: 0;
+    background-color: rgba(255,255,255,0.7);
+    padding: 40px;
+    height: 460px;
+}
+.vc_row.row.Mission_Vision {
+    background-image: url(https://huntingcube.com/wp-content/uploads/2021/10/pexels-fauxels-3183198.jpg);
+    padding-top: 65px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 30px;
+}
+.vc_row.row.Home_Services .wpb_text_column.wpb_content_element {
+    padding: 45px;
+}
+p.Learn_More {
+    margin-top: 40px;
+    text-align: center;
+}
+p.Learn_More a {
+    background-color: #0BAFA0;
+    text-decoration: none;
+    padding: 15px 40px;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 15px;
+}
+.vc_row.row.Home_Services p {
+    color: #808080;
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+.vc_row.row.Home_Services {
+    background: #F6F7F7;
+    padding-top: 55px;
+}
+.vc_row.row.Home_Services {
+    padding-bottom: 60px;
+}
+.row.footer-widgets h3 {
+    color: #222;
+    font-size: 21px !important;
+    font-weight: 400 !important;
+    font-family: 'Roboto';
+}
+.row.footer-widgets {
+    font-family: 'Roboto';
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    color: #808080 !important;
+}
+footer.site-footer {
+    background: #EFEFEE;
+    padding-bottom: 10px;
+}
+footer.site-footer .footer-bottom {
+    border-top: 1px solid #888;
+    padding: 20px 0 0;
+    margin-top: 0;
+	text-align: center;
+}
+p.GDPR_Links {
+    padding-top: 10px;
+    font-size: 13px;
+}
+p.web_by {
+    font-size: 13px;
+}
+.vc_row.row.Sub_Page_Header p {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    padding-top: 20px;
+}
+.vc_row.row.Sub_Page_Header h2 {
+    color: #fff;
+    text-align: center;
+    text-transform: none;
+    font-family: 'GFS Didot', serif;
+    font-size: 4em;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.vc_row.row.Sub_Page_Header {
+    background: #000;
+}
+.vc_row.row.Sub_Page_Content.About_Row h3 {
+    font-family: 'GFS Didot', serif;
+    text-transform: none;
+    color: #000;
+    margin-top: 20px;
+    padding-bottom: 0px;
+}
+.vc_row.row.Sub_Page_Content.About_Row p {
+    font-family: 'Noto Serif', serif;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    color: #808080;
+}
+.vc_row.row.Sub_Page_Content.About_Row {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.About_Quote {
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    line-height: 35px;
+    border-top: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+    padding: 20px 0px;
+    margin: 20px 0px;
+}
+p.Treatment_But {
+    margin: 30px 0px;
+}
+p.Treatment_But a {
+    background-color: #BDA96C;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 3px;
+}
+.vc_row.row.Sub_Page_Content.About_Row b {
+    color: #000 !important;
+}
+.Reflx_Outer img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px !important;
+}
+blockquote {
+    border: 2px solid #eee !important;
+    box-shadow: 8px 9px 6px #ddd !important;
+}
+.vc_row.row.Sub_Page_Content.About_Row.Testi_Row h3 {
+    padding-bottom: 10px;
+}
+.vc_row.row.Sub_Page_Content.About_Row.Testi_Row .credit {
+    display: none !important;
+}
+.vc_row.row.Sub_Page_Content.About_Row.Testi_Row span.list-title {
+    display: none !important;
+}
+.vc_row.row.Sub_Page_Content.About_Row.Testi_Row blockquote p:last-child {
+    color: #000 !important;
+}
+.vc_row.row.Sub_Page_Content.About_Row.Testi_Row blockquote p {
+    font-family: 'Roboto' !important;
+    font-size: 14px !important;
+}
+.vc_row.row.Sub_Page_Content.About_Row.Testi_Row blockquote p:last-child {
+    color: #000 !important;
+    font-family: 'Noto Serif', serif !important;
+    font-size: 16px !important;
+}
+
+
+.treat_box {
+    height: 465px;
+    background: linear-gradient(to bottom, #939598 0%,#dadbdd 50%,#939598 100%);
+    box-shadow: 0 14px 19px 5px #e2e2e2;
+    padding: 35px;
+    transition: all 0.2s ease-in-out;
+    margin: 20px;
+}
+.treat_box h1 {
+    font-size: 29px;
+    color: #fff;
+    text-align: center;
+    font-family: 'GFS Didot', serif;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+	text-transform:none ;
+}
+.treat_box p {
+    text-align: center;
+    color: #404041;
+    font-size: 14px;
+    font-family: 'Noto Serif', serif;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+.treat_box hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eeeeee;
+}
+.vc_row.row.Treatment_Row {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.treat_box:hover {
+    transform: scale(1.07);
+}
+.vc_row.row.Sub_Page_Content.About_Row.Treat_Intro {
+    background-color: #eee;
+    padding-top: 40px;
+    text-align: center;
+    margin: 0 20px;
+    border-radius: 3px;
+    margin-bottom: 50px;
+}
+.vc_row.row.Sub_Page_Content.About_Row.Treat_Intro select {
+    width: 67%;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+	outline:none !important;
+}
+.vc_row.row.Sub_Page_Content.About_Row.Treat_Intro textarea {
+    height: 100px;
+}
+.vc_row.row.Sub_Page_Content.About_Row.Treat_Intro input, .vc_row.row.Sub_Page_Content.About_Row.Treat_Intro textarea {
+    border: 0 !important;
+    padding: 7px;
+    border-radius: 5px;
+    margin-top: 5px;
+	outline:none !important;
+}
+.vc_row.row.Sub_Page_Content.About_Row.Treat_Intro p.form_links {
+    font-size: 14px;
+    font-family: 'Roboto' !important;
+    line-height: 25px !important;
+}
+.vc_row.row.Sub_Page_Content.About_Row.Treat_Intro input.wpcf7-form-control.has-spinner.wpcf7-submit {
+    background-color: #BDA96C;
+    color: #fff !important;
+    padding: 10px 40px;
+}
+.vc_row.row.Sub_Page_Content.About_Row.Treat_Intro span.wpcf7-spinner {
+    display: inherit !important;
+}
+.vc_row.row.Sub_Page_Content.About_Row.Treat_Intro label {
+    font-weight: 700;
+    font-size: 13px;
+}
+.vc_row.row.Sub_Page_Content.About_Row.Treat_Intro.Contact_Row {
+    background: transparent;
+    text-align: left;
+}
+.vc_row.row.Sub_Page_Content.About_Row.Treat_Intro.Contact_Row input, .vc_row.row.Sub_Page_Content.About_Row.Treat_Intro.Contact_Row textarea {
+    border: 0 !important;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    outline: none !important;
+    background: #eee;
+    font-size: 12px !important;
+    width: 80%;
+}
+.vc_row.row.Sub_Page_Content.About_Row.Treat_Intro.Contact_Row .wpcf7-list-item {
+    display: inline-block;
+    margin: 0;
+}
+.vc_row.row.Sub_Page_Content.About_Row.Treat_Intro.Contact_Row input[type="radio"] {
+    border: 0 !important;
+    width: 3%;
+    position: relative;
+    top: -2px;
+    border-radius: 50%;
+}
+.vc_row.row.Sub_Page_Content.About_Row.Treat_Intro.Contact_Row input.wpcf7-form-control.has-spinner.wpcf7-submit {
+    width: 35%;
+    font-size: 16px !important;
+}
+.vc_row.row.Sub_Page_Content.About_Row.Treat_Intro.Contact_Row p {
+    color: #000 !important;
+}
+.wpsm_count-icon i {
+    color: #0BAFA0 !important;
+    font-size: 48px !important;
+}
+.wpsm_number {
+    font-size: 25px !important;
+}
+.wpsm_counterbox {
+    border: 1px solid #F0F0F1;
+    box-shadow: 5px 5px 5px 2px #eee;
+    padding-top: 25px;
+}
+.vc_row.row.Core_Team_Row {
+    background-color: #F6F7F7;
+    padding-top: 50px;
+    margin-bottom: 25px;
+}
+.vc_row.row.Core_Team_Row .wpb_single_image {
+    margin-bottom: 0;
+}
+.vc_row.row.Core_Team_Row p {
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #000;
+    line-height: 30px;
+}
+.vc_row.row.Core_Team_Row h3 {
+    text-align: center;
+    margin-top: 0;
+    text-transform: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+}
+.home_col_outer {
+    height: 520px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    cursor: pointer;
+    border-bottom: 7px solid #0BAFA0;
+}
+.home_col_inner {
+    position: absolute;
+    bottom: 0;
+    height: 0;
+    background-color: rgba(0,0,0,.6);
+    text-align: center;
+    transition-duration: .75s;
+}
+.home_col_outer:hover>.home_col_inner {
+    height: 100%;
+    transition-duration: .5s;
+}
+.home_col_inner p {
+    color: transparent;
+}
+.home_col_outer:hover .home_col_inner p {
+    color: #fff;
+    text-align: left;
+    padding: 25% 15px 15px 15px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    font-weight: 400;
+}
+.home_col_inner_social{
+	display:none;
+}
+.home_col_outer:hover .home_col_inner .home_col_inner_social{
+	display:block;
+}
+p.team_name {
+    color: #000;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 15px;
+    margin-bottom: 0;
+}
+p.team_des {
+    color: #0BAFA0;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.vc_row.row.All_Team {
+    padding-top: 35px;
+}
+.home_col_inner_social {
+    text-align: left;
+}
+.home_col_inner_social i {
+    color: #fff !important;
+    font-size: 30px;
+    margin-left: 15px;
+}
+.vc_row.row.Core_Team_Row h2 {
+    margin-top: 0;
+    padding-bottom: 20px;
+    text-transform: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 33px;
+    color: #0BAFA0;
+}
+.home_col_outer.Team_one {
+    background-image: url(https://huntingcube.com/wp-content/uploads/2021/11/0001-scaled-e1637209725268.jpg);
+}
+.home_col_outer.Team_two {
+    background-image: url(https://huntingcube.com/wp-content/uploads/2021/11/WhatsApp-Image-2021-11-23-at-5.53.53-PM-e1637732187219.jpeg);
+}
+.home_col_outer.Team_three {
+    background-image: url(https://huntingcube.com/wp-content/uploads/2021/11/Anamika-min-scaled.jpg);
+}
+.home_col_outer.Team_four {
+    background-image: url(https://huntingcube.com/wp-content/uploads/2021/11/Payal-Bhatia-min.jpg);
+}
+.home_col_outer.Team_five {
+    background-image: url(https://huntingcube.com/wp-content/uploads/2024/01/ankur.png);
+}
+.home_col_outer.Team_six {
+    background-image: url(https://huntingcube.com/wp-content/uploads/2021/11/Deepali.jpeg);
+}
+.home_col_outer.Team_seven {
+    background-image: url(https://huntingcube.com/wp-content/uploads/2021/11/shubham.jpg);
+}
+.home_col_outer.Team_eight {
+    background-image: url(https://huntingcube.com/wp-content/uploads/2024/01/Keshav-Sahu-min-scaled.jpeg);
+}
+.home_col_outer.Team_nine {
+    background-image: url(https://huntingcube.com/wp-content/uploads/2021/11/IMG_20171110_135555.jpg);
+}
+.home_col_outer.Team_ten {
+    background-image: url(https://huntingcube.com/wp-content/uploads/2021/12/Akansha-1.jpeg);
+}
+.home_col_outer.Team_eleven {
+    background-image: url(https://huntingcube.com/wp-content/uploads/2021/12/Shefali.jpg);
+}
+.home_col_outer.Praneeta-Sah {
+    background-image: url(https://huntingcube.com/wp-content/uploads/2024/01/Praneeta-min-scaled.jpeg);
+}
+.home_col_outer.Mahika-Singh {
+    background-image: url(https://huntingcube.com/wp-content/uploads/2024/01/MAHIKA-min.jpeg);
+}
+.home_col_outer.Shivani-Punetha {
+    background-image: url(https://huntingcube.com/wp-content/uploads/2024/01/shivani-min-scaled.jpg);
+}
+.home_col_outer.Priya-Dubey {
+    background-image: url(https://huntingcube.com/wp-content/uploads/2024/03/PHOTO-2024-03-07-19-26-06.jpg);
+}
+.vc_row.row.Special_Head h2 {
+    margin-top: 60px;
+    background-color: rgba(255,255,255,0.9);
+    padding: 15px;
+    margin-bottom: 0;
+    text-transform: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 35px;
+    color: #0BAFA0;
+}
+.vc_row.row.Special_Head {
+    background-image: url(https://huntingcube.com/wp-content/uploads/2021/10/pexels-picjumbocom-461077.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.vc_row.row.Special_Intro {
+    background: #F6F7F7;
+    color: #000;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    margin-top: 35px;
+    padding: 20px;
+    margin-bottom: 60px;
+    box-shadow: 7px 7px 7px #ccc;
+    border-radius: 5px;
+}
+.vc_row.row.Special_Intro .wpb_text_column, .vc_row.row.Special_Intro .wpb_wrapper {
+    margin-bottom: 0;
+}
+.serve_outer_left {
+    float: left;
+    width: 20%;
+}
+.serve_outer_left i {
+    color: #0BAFA0;
+    font-size: 90px;
+}
+.serve_outer_right {
+    float: left;
+    width: 80%;
+}
+.serve_outer_right h3 {
+    color: #0BAFA0;
+    text-transform: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin-top: 0;
+}
+.serve_outer_right p {
+    color: #000;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 27px;	
+	font-weight:300 !important;
+}
+.serve_outer_points li {
+    width: 50%;
+    float: left;
+    font-weight: 300;
+    font-family: 'Roboto';
+    letter-spacing: 0.5px;
+    font-size: 14px;
+}
+.serve_outer:hover {
+    background-color: #0BAFA0;
+    box-shadow: 7px 7px 7px #ccc;
+}
+.serve_outer {
+    float: left;
+   border-radius: 5px;
+    cursor: pointer;
+	padding:20px;
+}
+.serve_outer:hover li, .serve_outer:hover p, .serve_outer:hover h3  , .serve_outer:hover i{
+    color: #fff !important;
+}
+.vc_row.row.Speciality_Blocks {
+    border-bottom: 1px solid #0BAFA0;
+    margin-bottom: 40px;
+}
+.Team_Ban_Overlay {
+    display: none;
+}
+.read_div {
+    font-size: 14px !important;
+    line-height: 27px !important;
+    letter-spacing: 0.5px !important;
+    font-weight: 300 !important;
+    color: #000;
+}
+.serve_outer:hover .read_div {
+    color: #fff !important;
+}
+.serve_outer:hover .read-link {
+    background: #fff !important;
+    color: #0bafa0 !important;
+}
+.read-link {
+    background: #0bafa0 !important;
+    color: #fff !important;
+    position: relative;
+    top: 18px !important;
+    border: 0 !important;
+    padding: 8px 12px !important;
+    border-radius: 3px !important;
+	text-decoration:none !important;
+}
+.ctl_info.event-description.full {
+    display: none !important;
+}
+.meta-details {
+    display: none;
+}
+.vc_row.row.About_Thumbs .wpb_text_column p {
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    font-size: 16px;
+}
+.vc_row.row.About_Thumbs .wpb_text_column {
+    background-color: rgba(11,175,160,0.8);
+    height: 205px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.vc_row.row.About_Thumbs_Head h2 {
+    color: #0BAFA0;
+    font-size: 35px;
+    font-weight: 300 !important;
+    letter-spacing: 0.5px;
+    padding-top: 15px;
+}
+.vc_row.row.About_Thumbs {
+    background-image: url(https://huntingcube.com/wp-content/uploads/2021/10/pexels-picjumbocom-461077.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 70px;
+    margin-top: 15px;
+    background-position: center;
+    padding-bottom: 15px;
+}
+.vc_row.row.Contact_Top h2 {
+    padding-top: 50px;
+    font-size: 70px;
+    font-weight: 500 !important;
+    text-transform: none;
+    letter-spacing: 1px;
+}
+.Con_Top_Img img  {
+        -webkit-animation: action 1s infinite  alternate;
+        animation: action 1s infinite  alternate;
+    }
+    @-webkit-keyframes action {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-10px); }
+    }
+    @keyframes action {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-10px); }
+    }
+
+.vc_row.row.Contact_Top h2:after {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 7px;
+    background: #0BAFA0;
+    bottom: -7px;
+    left: 5px;
+}
+.vc_row.row.Contact_Info h4 , .vc_row.row.Form_Row h4{
+    font-size: 32px;
+    font-weight: 500 !important;
+    text-transform: none;
+    letter-spacing: 1px;
+	margin-bottom:40px;
+}
+.vc_row.row.Contact_Info h4:after , .vc_row.row.Form_Row h4:after{
+    position: absolute;
+    content: '';
+    width: 75px;
+    height: 5px;
+    background: #0BAFA0;
+    bottom: -10px;
+    left: 3px;
+}
+.vc_row.row.Contact_Info i {
+    float: left;
+    padding-right: 7px;
+    color: #0BAFA0;
+    font-size: 18px;
+}
+.vc_row.row.Contact_Info h5 {
+    color: #000;
+    text-transform: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.vc_row.row.Contact_Info p, .vc_row.row.Contact_Info a , .vc_row.row.Form_Row p {
+    color: #000;
+    line-height: 27px;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.vc_row.row.Contact_Info .wpb_column.vc_column_container.vc_col-sm-4:nth-child(2) {
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+.vc_row.row.Form_Row textarea {
+    height: 115px;
+}
+.vc_row.row.Form_Row input, .vc_row.row.Form_Row textarea {
+    padding: 13px;
+    border: 1px solid #ccc;
+    width: 92%;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    color: #000;
+    box-shadow: 5px 5px 5px #eee;
+	outline:none !important;
+}
+input.wpcf7-form-control.has-spinner.wpcf7-submit {
+    background: #0BAFA0;
+    color: #fff;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 1px;
+    width: 30%;
+}
+.Hunt_Cube_Inner:nth-child(2n+1) {
+    background: #0BAFA0;
+    color: #fff;
+}
+.Hunt_Cube_Inner {
+    float: left;
+    width: 33.33%;
+    height: 260px;
+    padding: 15px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    text-align: center;
+}
+.vc_row.row.Hunt_Cube_Row {
+    padding-top: 30px;
+	padding-bottom:20px;
+}
+.Hunt_Cube_Inner i {
+    font-size: 50px;
+}
+.Hunt_Cube_Inner:nth-child(9) {
+    border-radius: 0px 0px 15px 0px;
+}
+.Hunt_Cube_Inner:nth-child(7) {
+    border-radius: 0px 0px 0px 15px;
+}
+.Hunt_Cube_Inner:nth-child(3) {
+    border-radius: 0px 15px 0px 0px;
+}
+.Hunt_Cube_Inner:nth-child(1) {
+    border-radius: 15px 0px 0px 0px;
+}
+.Hunt_Cube_Row img  {
+        -webkit-animation: action 1s infinite  alternate;
+        animation: action 1s infinite  alternate;
+    }
+    @-webkit-keyframes action {
+        0% { transform: translateY(20); }
+        100% { transform: translateY(-30px); }
+    }
+    @keyframes action {
+        0% { transform: translateY(20); }
+        100% { transform: translateY(-30px); }
+    }
